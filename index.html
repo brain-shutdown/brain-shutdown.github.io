@@ -10,15 +10,22 @@
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
-        <div class="collapsible collapsible--expanded">
-            <header class="collapsible__header">
-                <h2 class="collapsible__heading">Item 1</h2>
-                <svg class="icon icon--white collapsible__chevron">
-                    <use xlink:href="images/sprite.svg#chevron"></use>
-                </svg>
+        <section class="block container">
+            <!-- Container wrapping a block element -->
+            <header class="block__header">
+                <h2 class="block__heading">Heading</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorum.</p>
             </header>
-            <div class="collapsible__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, nam.</div>
-        </div>
+        </section>
+        <section class="block block--dark block--skewed-left">
+            <!-- Container wrapping content element (black background)-->
+            <div class="container">
+                <header class="block__header">
+                    <h2 class="block__heading">Heading</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorum.</p>
+                </header>
+            </div>
+        </section>
         <script src="js/main.js"></script>
     </body>
 </html>
