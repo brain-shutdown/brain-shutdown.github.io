@@ -221,7 +221,7 @@ a {
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     border: 0;
     border-radius: 40px;
     cursor: pointer;
@@ -319,6 +319,7 @@ a {
     padding: 1.5rem 2rem;
     border: 0;
     flex-grow: 1;
+    width: 0;
 }
 
 .input-group .btn {
@@ -582,6 +583,10 @@ a {
     border-radius: 5px;
 }
 
+.callout--signup {
+    transform: translateY(5rem);
+}
+
 .callout--primary {
     background: var(--color-primary);
     color: #fff;
@@ -755,7 +760,6 @@ a {
 
     .nav__item {
         border-bottom: 0;
-        border-right: 1px solid #222;
     }
 
     .nav__item:last-of-type {
@@ -799,8 +803,9 @@ a {
 }
 
 .block-domain__prices {
+    color: var(--color-headings);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 6rem);
     justify-items: center;
     align-items: center;
@@ -886,6 +891,7 @@ a {
 /* ************ */
 .footer {
     background: #232323;
+    padding-top: 10rem;
 }
 
 .footer__section {
